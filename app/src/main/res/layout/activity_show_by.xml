@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/showByMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/action_bar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="@android:color/darker_gray" />
+
+    <RadioGroup
+        android:id="@+id/showByFragmentsBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/stroke"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/location"
+            style="@style/RadioButton1"
+            android:background="@drawable/right"
+            android:text="@string/show_by_location" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/voucherType"
+            style="@style/RadioButton1"
+            android:background="@drawable/middle"
+            android:text="@string/show_by_voucher_type" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/category"
+            style="@style/RadioButton1"
+            android:background="@drawable/left"
+            android:text="@string/show_by_categories" />
+
+    </RadioGroup>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/showByFragmentTitle"
+        style="@style/TextViewWhite"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:typeface="serif" />
+
+    <talaviassaf.swappit.models.NonSlidingViewPager
+        android:id="@+id/showByViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_weight="1" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/filter"
+        style="@style/ButtonBottom"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/show_by_confirm" />
+
+</android.support.v7.widget.LinearLayoutCompat>

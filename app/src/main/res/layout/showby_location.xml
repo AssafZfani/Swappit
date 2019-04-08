@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <talaviassaf.swappit.models.CleanEditText
+        android:id="@+id/locationSearch"
+        style="@style/EditText"
+        android:layout_height="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/corner_transparent"
+        android:hint="@string/show_by_location_insert_address_for_search" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/mapContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationSearch"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/showsVoucherIn"
+        style="@style/TextViewWhite"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/show_by_location_shows_vouchers_at" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/chosenCity"
+        style="@style/TextViewWhite"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/showsVoucherIn"
+        android:layout_toRightOf="@id/showsVoucherIn"
+        android:typeface="serif" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/cleanChosenCity"
+        style="@style/CleanImageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12.5dp"
+        android:layout_toEndOf="@id/chosenCity"
+        android:layout_toRightOf="@id/chosenCity" />
+
+</RelativeLayout>

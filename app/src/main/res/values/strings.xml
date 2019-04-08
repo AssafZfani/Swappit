@@ -1,0 +1,261 @@
+<resources>
+
+    <string name="app_name">Swappit</string>
+
+    <string name="bg_edit_address_cancel">ביטול</string>
+    <string name="bg_edit_address_confirm">אישור</string>
+    <string name="bg_edit_address_success_title">סיכום רכישה</string>
+    <string name="bg_edit_address_title">עריכת כתובת</string>
+
+    <string name="bg_field_address">כתובת מגורים</string>
+    <string name="bg_field_apartment">דירה</string>
+    <string name="bg_field_email">כתובת מייל</string>
+    <string name="bg_field_first_name">שם פרטי</string>
+    <string name="bg_field_last_name">שם משפחה</string>
+    <string name="bg_field_postcode">מיקוד (אופציונלי)</string>
+
+    <string name="bg_login_facebook_login_text">היכנס עם פייסבוק</string>
+    <string name="bg_login_or">או:</string>
+    <string name="bg_login_sign_up_with_email">הירשם באמצעות דואר אלקטרוני</string>
+
+    <string name="bg_registration_register">הרשם</string>
+
+    <string-array name="categories">
+
+        <item>ספרים</item>
+        <item>אופנה</item>
+        <item>קולנוע ותיאטרון</item>
+        <item>מוצרי חשמל</item>
+        <item>ספורט</item>
+        <item>בית וגן</item>
+        <item>מלונות וטיולים</item>
+        <item>עשה זאת בעצמך</item>
+        <item>תכשיטים</item>
+        <item>ילדים</item>
+        <item>מסעדות</item>
+        <item>רשתות מזון</item>
+        <item>טיפול ובתי מרקחת</item>
+
+    </string-array>
+
+    <string name="dialog_camera_from_camera">מצלמה</string>
+    <string name="dialog_camera_from_gallery">גלריה</string>
+    <string name="dialog_camera_picker">מאיפה לקחת את התמונה?</string>
+    <string name="dialog_cancel">ביטול</string>
+    <string name="dialog_confirm">אישור</string>
+    <string name="dialog_contact_us_message">הודעתך נשלחה בהצלחה למערכת.</string>
+    <string name="dialog_delete_cancel">בטל</string>
+    <string name="dialog_delete_confirm">הסר</string>
+    <string name="dialog_delete_message">האם ברצונך להסיר את הזיכוי מהרשימה?</string>
+    <string name="dialog_exit_message">האם ברצונך לצאת מהאפיקציה?</string>
+    <string name="dialog_my_vouchers_message">יש להתחבר למערכת כדי לצפות בזיכויים שלך</string>
+    <string name="dialog_personal_details_message">יש להתחבר למערכת לצורך עדכון פרטים</string>
+    <string name="dialog_precious_brands_message">בחירתך נקלטה במערכת.\nתקבל התראה כשיעלו זיכויים מהמותגים האהובים עליך.</string>
+    <string name="dialog_purchase_vouchers_message">תודה שבחרת לקנות Swappit. חשבונית תשלח למייל.</string>
+    <string name="dialog_save_data_message">האם אתה בטוח שברצונך לצאת?\nנתוניך לא יישמרו במערכת.</string>
+    <string name="dialog_soon">שינוי השפה יהיה זמין בקרוב</string>
+    <string name="dialog_upload_vouchers_message">נתוניך נקלטו במערכת ויעלו לאחר בדיקת אימות.</string>
+
+    <string name="facebook_app_id">275515989536712</string>
+
+    <string name="gps_tracker_distance_kilometer">&#160;ק\"מ ממני</string>
+    <string name="gps_tracker_distance_meter">&#160;מ\' ממני</string>
+
+    <string name="homepage_main_fragment_title_feed">מציג זיכויים סביבי</string>
+    <string name="homepage_main_fragment_title_part1">מציג</string>
+    <string name="homepage_main_fragment_title_part2">ומיד</string>
+    <string name="homepage_main_fragment_title_personal_zone">איזור אישי</string>
+    <string name="homepage_main_fragment_title_precious_brands1">בחר את המותגים האהובים עליך</string>
+    <string name="homepage_main_fragment_title_precious_brands2">ומיד תוכל לצפות בזיכויים המתאימים לך</string>
+    <string name="homepage_main_fragment_title_purchase_vouchers">עגלת קניות</string>
+    <string name="homepage_main_fragment_title_registration">הרשמה</string>
+    <string name="homepage_main_fragment_title_upload_vouchers">העלאת זיכוי</string>
+
+    <string name="login_page_enter_your_phone_number">הזן את מספר הטלפון שלך</string>
+    <string name="login_page_login">התחבר</string>
+    <string name="login_page_login_troubleshooting">בעיה בהתחברות?&#160;<u>לחץ כאן</u></string>
+    <string name="login_page_mail_title">בעיה בהתחברות</string>
+    <string name="login_page_prefix">972+</string>
+    <string name="login_page_send_mail">שלח מייל</string>
+    <string name="login_page_terms_and_conditions">על ידי התחברות אני מאשר את תנאי השימוש</string>
+
+    <string name="main_feed_clean_show_by_results">נקה תוצאות סינון</string>
+    <string name="main_feed_location_message">על מנת לצפות בזיכויים הקרובים למיקומך, עליך לאפשר גישה לנתוני מיקום.</string>
+    <string name="main_feed_search_by_message">לא נמצאו במאגר פריטים התואמים לשם&#160;</string>
+    <string name="main_feed_show_by">סנן</string>
+    <string name="main_feed_show_by_message">לא נמצאו פריטים התואמים את החיפוש המבוקש.</string>
+    <string name="main_feed_sort_by_discount">מציג זיכויים לפי אחוז הנחה</string>
+    <string name="main_feed_sort_by_firm_property">מציג זיכויים הכוללים משלוח</string>
+    <string name="main_feed_sort_by_precious_brands">מציג זיכויים ממותגים אהובים</string>
+
+    <string name="main_personal_zone_about_us">אודות</string>
+    <string name="main_personal_zone_contact_us">צור קשר</string>
+    <string name="main_personal_zone_faq">שאלות נפוצות</string>
+    <string name="main_personal_zone_invite_friends">הזמן חברים</string>
+    <string name="main_personal_zone_my_vouchers">הזיכויים שלי</string>
+    <string name="main_personal_zone_personal_details">פרטים אישיים</string>
+    <string name="main_personal_zone_rate_us">דרג אותנו</string>
+    <string name="main_personal_zone_settings">הגדרות</string>
+
+    <string name="main_precious_brands_message">לא נמצאו במאגר מותגים התואמים לשם %1$s</string>
+    <string name="main_precious_brands_next">אישור</string>
+
+    <string name="main_purchase_vouchers_continue_for">המשך ל%1$s</string>
+    <string name="main_purchase_vouchers_make_a">בצע %1$s</string>
+    <string name="main_purchase_vouchers_payment">תשלום</string>
+
+    <string name="main_upload_vouchers_finish">סיום</string>
+    <string name="main_upload_vouchers_next">הבא</string>
+    <string name="main_upload_vouchers_phase">שלב %1$d מתוך 3</string>
+
+    <string name="personal_zone_contact_us_chars_limit">(עד 500 תווים)</string>
+    <string name="personal_zone_contact_us_content">תוכן הפנייה&#160;</string>
+    <string name="personal_zone_contact_us_full_name">שם מלא</string>
+    <string name="personal_zone_contact_us_phone">טלפון</string>
+    <string name="personal_zone_contact_us_send">שלח</string>
+    <string name="personal_zone_contact_us_subject">נושא הפנייה</string>
+    <string name="personal_zone_contact_us_title">יצירת קשר</string>
+
+    <string name="personal_zone_fields_cancel">בטל</string>
+    <string name="personal_zone_fields_save">שמור</string>
+
+    <string name="personal_zone_my_vouchers_delete">הסר</string>
+    <string name="personal_zone_my_vouchers_in">&#160;ב</string>
+    <string name="personal_zone_my_vouchers_title">עדכן זיכויים</string>
+    <string name="personal_zone_my_vouchers_worth">&#160;בשווי&#160;</string>
+    <string name="personal_zone_my_vouchers_price_after_discount">מחיר לאחר הנחה: %1$d ₪</string>
+
+    <string name="personal_zone_settings_language">שפה</string>
+    <string name="personal_zone_settings_locale">עברית</string>
+    <string name="personal_zone_settings_message">עדיין לא העלת זיכויים</string>
+    <string name="personal_zone_settings_notifications">התראות</string>
+    <string name="personal_zone_settings_notifications_message">שלח לי התראות כאשר זיכוי ממותג אהוב הועלה למאגר</string>
+    <string name="personal_zone_settings_precious_brands">מותגים אהובים</string>
+
+    <string name="purchase_cart_empty_cart_message1">עגלת הקניות שלך ריקה</string>
+    <string name="purchase_cart_empty_cart_message2">רכוש זיכויים הכוללים משלוח - Swappit.</string>
+    <string name="purchase_cart_location_message">על מנת לצפות בעגלת הקניות שלך, עליך לאפשר גישה לנתוני מיקום.</string>
+    <string name="purchase_cart_saving">חסכת:</string>
+    <string name="purchase_cart_total_payment">סך הכול לתשלום:</string>
+    <string name="purchase_cart_worth">שווי עגלה:</string>
+
+    <string name="purchase_payment_systems_credit_card">אשראי</string>
+    <string name="purchase_payment_systems_credit_number">מספר כרטיס</string>
+    <string name="purchase_payment_systems_cvv">3 הספרות בגב הכרטיס</string>
+    <string name="purchase_payment_systems_email">דואר אלקטרוני</string>
+    <string name="purchase_payment_systems_exp_date">תוקף</string>
+    <string name="purchase_payment_systems_id">ת.ז של בעל הכרטיס</string>
+    <string name="purchase_payment_systems_password">סיסמא</string>
+    <string name="purchase_payment_systems_pay_pal">Pay-Pal</string>
+    <string name="purchase_payment_systems_title">בחר אמצעי תשלום</string>
+
+    <string name="purchase_success_address_note">אני מאשר כי זוהי כתובתי</string>
+    <string name="purchase_success_change">&#160;<u>(ערוך)</u></string>
+    <string name="purchase_success_credit">אשראי&#160;</string>
+    <string name="purchase_success_delivery_address">כתובת למשלוח&#160;</string>
+    <string name="purchase_success_system_payment">אמצעי תשלום&#160;</string>
+
+    <string name="show_by_categories">קטגוריות</string>
+    <string name="show_by_confirm">אישור</string>
+    <string name="show_by_location">מיקום</string>
+    <string name="show_by_title">סינון</string>
+    <string name="show_by_voucher_type">סוג זיכוי</string>
+
+    <string name="show_by_location_insert_address_for_search">הזן כתובת לחיפוש</string>
+    <string name="show_by_location_shows_vouchers_at">מציג זיכויים ב:</string>
+
+    <string name="show_by_voucher_type_magnet_card">כרטיס מגנטי</string>
+    <string name="show_by_voucher_type_paper">זיכוי מודפס</string>
+    <string name="show_by_voucher_type_scrip">תו קנייה</string>
+
+    <string-array name="sortBy">
+
+        <item>כולל משלוח</item>
+        <item>מיקום</item>
+        <item>מותגים אהובים</item>
+        <item>אחוז הנחה</item>
+        <item>מיין לפי</item>
+
+    </string-array>
+
+    <string name="the_magnet_card">הכרטיס המגנטי</string>
+    <string name="the_voucher">הזיכוי</string>
+
+    <string name="ticket_delete_voucher">מחק זיכוי</string>
+
+    <string name="ticket_firm_add">הוסף ל</string>
+    <string name="ticket_firm_cart">%1$sעגלה</string>
+    <string name="ticket_firm_remove">הסר מה</string>
+
+    <string name="ticket_share_message_part1">היי, מצאתי זיכוי של&#160;</string>
+    <string name="ticket_share_message_part2">&#160;ב</string>
+    <string name="ticket_share_message_part3">% הנחה שאתה עשוי לאהוב.</string>
+
+    <string name="ticket_voucher_percent_off">אחוז הנחה: %d%%</string>
+    <string name="ticket_voucher_price">מחיר: %1$d ₪</string>
+    <string name="ticket_voucher_view_more">הצג עוד מאותו מותג</string>
+    <string name="ticket_voucher_worth">שווי הזיכוי</string>
+
+    <string name="toast_barcode">חובה להזין את&#160;</string>
+    <string name="toast_barcode_magnet_card">מספר הכרטיס המגנטי</string>
+    <string name="toast_barcode_voucher">ברקוד הזיכוי</string>
+    <string name="toast_brand">חובה לבחור מותג מהרשימה</string>
+    <string name="toast_content">חובה להזין תוכן לפנייה</string>
+    <string name="toast_correctly1">&#160;תקין</string>
+    <string name="toast_correctly2">&#160;תקינה</string>
+    <string name="toast_credit_cvv">חובה להזין מספר CVV</string>
+    <string name="toast_credit_number">חובה להזין מספר כרטיס אשראי</string>
+    <string name="toast_discount">אין לבחור אחוז הנחה הקטן מ-10</string>
+    <string name="toast_email">חובה להזין כתובת דואר אלקטרוני</string>
+    <string name="toast_exp_date">חובה להזין תוקף תקין&#160;</string>
+    <string name="toast_exp_date_magnet_card">לכרטיס המגנטי</string>
+    <string name="toast_exp_date_voucher">לזיכוי</string>
+    <string name="toast_first_name">חובה למלא שם פרטי</string>
+    <string name="toast_full_name">שם מלא</string>
+    <string name="toast_home_address">חובה למלא כתובת מגורים</string>
+    <string name="toast_home_address_updated_successfully">כתובתך עודכנה בהצלחה!</string>
+    <string name="toast_id">חובה להזין מספר תעודת זהות</string>
+    <string name="toast_image">חובה לצלם את&#160;</string>
+    <string name="toast_last_name">חובה למלא שם משפחה</string>
+    <string name="toast_login_succeeded">התחברת בהצלחה!</string>
+    <string name="toast_magnet_card_cvv">חובה להזין את 3 ספרות הביקורת של הכרטיס המגנטי</string>
+    <string name="toast_password">חובה להזין סיסמא</string>
+    <string name="toast_personal_details_updated_successfully">פרטיך עודכנו בהצלחה!</string>
+    <string name="toast_phone">חובה להזין מספר טלפון</string>
+    <string name="toast_subject">חובה להזין נושא לפנייה</string>
+    <string name="toast_sign_in_succeeded">נרשמת בהצלחה!</string>
+    <string name="toast_value_empty">חובה להזין את ערך הזיכוי</string>
+    <string name="toast_value_less_than_50">ערך הזיכוי חייב להיות גדול או שווה ל-50</string>
+    <string name="toast_voucher_added_to_cart">השובר נוסף לעגלת הקניות</string>
+    <string name="toast_voucher_removed_from_cart">השובר הוסר מעגלת הקניות</string>
+    <string name="toast_voucher_type">חובה לבחור את סוג הזיכוי</string>
+
+    <string name="upload_details_barcode_magnet_card">הזן את מספר הכרטיס המגנטי</string>
+    <string name="upload_details_barcode_voucher">הזן את ברקוד הזיכוי</string>
+    <string name="upload_details_cvv_magnet_card">הזן את ספרות הביקורת של הכרטיס המגנטי</string>
+    <string name="upload_details_exp_date">בחר את תוקף&#160;</string>
+    <string name="upload_details_voucher_documentation">התיעוד הזיכוי</string>
+    <string name="upload_details_voucher_documentation_note">נא לצלם את הזיכוי באופן ברור</string>
+
+    <string name="upload_success_percent_off">אחוז הנחה: %d%%</string>
+    <string name="upload_success_sale_price">מחיר מכירה: %1$s ₪</string>
+    <string name="upload_success_title">השובר נקלט בהצלחה!</string>
+    <string name="upload_success_voucher_worth">שווי הזיכוי: %1$s ₪</string>
+
+    <string name="upload_type_choose_brand_from_list">בחר מותג מהרשימה</string>
+    <string name="upload_type_choose_brand_name">בחר את שם המותג</string>
+    <string name="upload_type_chosen_brand">מותג נבחר:</string>
+
+    <string name="upload_worth_value">ערך הזיכוי</string>
+    <string name="upload_worth_discount">בחר את גובה ההנחה באחוזים</string>
+    <string name="upload_worth_discount_note">להגדלת סיכוי המכירה מומלץ להזין גובה הנחה בסך 20% ומעלה</string>
+    <string name="upload_worth_price_after_discount">מחיר לאחר הנחה:</string>
+
+    <string name="voucher_info_buy">קנה</string>
+    <string name="voucher_info_call">התקשר</string>
+    <string name="voucher_info_delete">הסתר</string>
+    <string name="voucher_info_share">שתף</string>
+    <string name="voucher_info_sms">שלח הודעה</string>
+    <string name="voucher_info_title">פרטי הזיכוי</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <talaviassaf.swappit.models.CleanEditText
+        android:id="@+id/feedSearchBrands"
+        style="@style/EditText"
+        android:layout_height="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/corner_transparent"
+        android:imeOptions="actionDone" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:background="@drawable/stroke"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/showBy"
+            style="@style/RadioButton1"
+            android:background="@null"
+            android:text="@string/main_feed_show_by" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/sortBy"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:dropDownVerticalOffset="45dp"
+            android:popupBackground="@drawable/sort_by"
+            tools:listitem="@layout/model_sort_by" />
+
+    </RadioGroup>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/clearResults"
+        style="@style/TextViewWhite"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:drawableEnd="@drawable/clean"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/clean"
+        android:text="@string/main_feed_clean_show_by_results"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/locationMessage"
+        style="@style/TextViewWhite"
+        android:layout_marginTop="50dp"
+        android:drawablePadding="15dp"
+        android:drawableTop="@drawable/location"
+        android:gravity="center"
+        android:text="@string/main_feed_location_message" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/noResultsMessage"
+        style="@style/TextViewWhite"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:drawablePadding="15dp"
+        android:drawableTop="@drawable/no_results"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/feedSwipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/feedRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fadingEdgeLength="35dp"
+            android:requiresFadingEdge="vertical" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/TextViewWhite"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/purchase_payment_systems_title" />
+
+    <RadioGroup
+        android:id="@+id/paymentSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginStart="75dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/creditCard"
+            style="@style/RadioButton2"
+            android:checked="true"
+            android:drawableTop="@drawable/credit_card"
+            android:text="@string/purchase_payment_systems_credit_card" />
+
+        <View style="@style/EmptyView" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/paypal"
+            style="@style/RadioButton2"
+            android:drawableTop="@drawable/paypal"
+            android:text="@string/purchase_payment_systems_pay_pal" />
+
+    </RadioGroup>
+
+    <ViewSwitcher
+        android:id="@+id/viewSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <talaviassaf.swappit.models.CleanEditText
+                android:id="@+id/id"
+                style="@style/EditText"
+                android:layout_height="wrap_content"
+                android:hint="@string/purchase_payment_systems_id"
+                android:inputType="number" />
+
+            <View style="@style/WhiteDividerWithMargin1" />
+
+            <talaviassaf.swappit.models.CleanEditText
+                android:id="@+id/creditNumber"
+                style="@style/EditText"
+                android:layout_height="wrap_content"
+                android:hint="@string/purchase_payment_systems_credit_number"
+                android:inputType="number" />
+
+            <View style="@style/WhiteDividerWithMargin1" />
+
+            <talaviassaf.swappit.models.CleanEditText
+                android:id="@+id/cvv"
+                style="@style/EditText"
+                android:layout_height="wrap_content"
+                android:hint="@string/purchase_payment_systems_cvv"
+                android:inputType="number"
+                android:maxLength="3" />
+
+            <View style="@style/WhiteDividerWithMargin1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        style="@style/TextViewWhite"
+                        android:layout_marginLeft="7.5dp"
+                        android:layout_marginStart="7.5dp"
+                        android:text="@string/purchase_payment_systems_exp_date" />
+
+                    <View style="@style/EmptyView" />
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="7.5dp"
+                        android:layout_marginRight="7.5dp"
+                        android:background="@drawable/arrow_white" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="85dp"
+                    android:layout_marginStart="85dp"
+                    android:gravity="center">
+
+                    <NumberPicker
+                        android:id="@+id/year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <View style="@style/EmptyView" />
+
+                    <NumberPicker
+                        android:id="@+id/month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <talaviassaf.swappit.models.CleanEditText
+                android:id="@+id/email"
+                style="@style/EditText"
+                android:layout_height="wrap_content"
+                android:hint="@string/purchase_payment_systems_email"
+                android:inputType="textEmailAddress" />
+
+            <View style="@style/WhiteDividerWithMargin1" />
+
+            <talaviassaf.swappit.models.CleanEditText
+                android:id="@+id/password"
+                style="@style/EditText"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:hint="@string/purchase_payment_systems_password"
+                android:inputType="textPassword"
+                android:textAlignment="viewStart" />
+
+            <View style="@style/WhiteDividerWithMargin1" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </ViewSwitcher>
+
+</android.support.v7.widget.LinearLayoutCompat>

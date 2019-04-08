@@ -1,0 +1,331 @@
+﻿{
+  "Vouchers": [
+    {
+      "address": "אחד העם 5, תל אביב יפו",
+      "barcode": "152828959",
+      "brand": "Hoodies",
+      "cvv": "0",
+      "deliveryIncluded": "1",
+      "discount": 28,
+      "expDate": "14/7/17",
+      "firmProperty": false,
+      "id": "-Kl0Xjt4i1wF0mjnG3Yc",
+      "price": 80,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "Scrip",
+      "value": 110
+    },
+    {
+      "address": "פלורנטין 89, תל אביב יפו",
+      "barcode": "93488593",
+      "brand": "Dream Card",
+      "cvv": "262",
+      "deliveryIncluded": "1",
+      "discount": 19,
+      "expDate": "31/12/21",
+      "firmProperty": false,
+      "id": "-Kl0XjtIGJSd6qNVcVdT",
+      "price": 390,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.050151",
+        "lon": "34.811721"
+      },
+      "status": "valid",
+      "type": "Magnet Card",
+      "value": 479
+    },
+    {
+      "address": "יגאל ידין 14, חולון",
+      "barcode": "526033898",
+      "brand": "Renuar",
+      "cvv": "0",
+      "deliveryIncluded": "0",
+      "discount": 20,
+      "expDate": "3/7/17",
+      "firmProperty": false,
+      "id": "-Kl0XjtJyo1lupIpFdoy",
+      "price": 160,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "Scrip",
+      "value": 200
+    },
+    {
+      "address": "בלינסון 16, רמלה",
+      "barcode": "23540718",
+      "brand": "Gap",
+      "cvv": "0",
+      "deliveryIncluded": "0",
+      "discount": 21,
+      "expDate": "18/7/18",
+      "firmProperty": false,
+      "id": "-Kl0XjtK5ygcQeOugzUy",
+      "price": 190,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": " 34.812837"
+      },
+      "status": "valid",
+      "type": "Paper",
+      "value": 240
+    },
+    {
+      "address": "משה דיין 10, ראשון לציון",
+      "barcode": "1948005174",
+      "brand": "Castro",
+      "cvv": "0",
+      "deliveryIncluded": "1",
+      "discount": 20,
+      "expDate": "16/6/18",
+      "firmProperty": false,
+      "id": "-Kl0XjtL8qjEH2hcT4Kd",
+      "price": 80,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "Paper",
+      "value": 100
+    },
+    {
+      "address": "יעבץ 11, חולון",
+      "barcode": "1892008122",
+      "brand": "Castro",
+      "cvv": "0",
+      "deliveryIncluded": "1",
+      "discount": 25,
+      "expDate": "24/5/18",
+      "firmProperty": true,
+      "id": "-Kl0XjtMrBbSONFYdEbG",
+      "price": 75,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "Paper",
+      "value": 100
+    },
+    {
+      "address": "פלוטיצקי 10, ראשון לציון",
+      "barcode": "707797415",
+      "brand": "H&M",
+      "cvv": "0",
+      "deliveryIncluded": "0",
+      "discount": 22,
+      "expDate": "15/6/18",
+      "firmProperty": true,
+      "id": "-Kl0XjtYbc4Q95Y9AS3S",
+      "price": 210,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.182148",
+        "lon": "34.835368"
+      },
+      "status": "valid",
+      "type": "Paper",
+      "value": 268
+    },
+    {
+      "address": "יגאל ידין 10, מודיעין",
+      "barcode": "859903214",
+      "brand": "Gap",
+      "cvv": "898",
+      "deliveryIncluded": "0",
+      "discount": 20,
+      "expDate": "31/3/18",
+      "firmProperty": true,
+      "id": "-Kl0XjtZzfrSEzA0VL1Z",
+      "price": 390,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "Paper",
+      "value": 487
+    },
+    {
+      "address": "יעבץ 11, חולון",
+      "barcode": "156924227",
+      "brand": "Hoodies",
+      "cvv": "0",
+      "deliveryIncluded": "1",
+      "discount": 20,
+      "expDate": "3/10/17",
+      "firmProperty": true,
+      "id": "-Kl0XjtZzfrSEzA0VL1_",
+      "price": 300,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.167826",
+        "lon": "34.836388"
+      },
+      "status": "valid",
+      "type": "Paper",
+      "value": 375
+    },
+    {
+      "address": "מעפילי אגוז 5, תל אביב יפו",
+      "barcode": "677777777777",
+      "brand": "Celio",
+      "cvv": "0",
+      "deliveryIncluded": "1",
+      "discount": 20,
+      "distance": 7412.6572265625,
+      "expDate": "3/10/17",
+      "firmProperty": true,
+      "id": "-Kl0XjtZzfrSEzA0VL1_",
+      "price": 300,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "scrip",
+      "value": 800
+    },
+    {
+      "address": "גולדה מאיר 7, חולון",
+      "barcode": "677777777777",
+      "brand": "Celio",
+      "cvv": "0",
+      "deliveryIncluded": "1",
+      "discount": 20,
+      "distance": 7412.6572265625,
+      "expDate": "3/10/17",
+      "firmProperty": true,
+      "id": "-Kl0XjtZzfrSEzA0VL1_",
+      "price": 300,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "scrip",
+      "value": 800
+    },
+    {
+      "address": "תובל 11, רמת גן",
+      "barcode": "677777777777",
+      "brand": "Celio",
+      "cvv": "0",
+      "deliveryIncluded": "1",
+      "discount": 20,
+      "distance": 7412.6572265625,
+      "expDate": "3/10/17",
+      "firmProperty": true,
+      "id": "-Kl0XjtZzfrSEzA0VL1_",
+      "price": 300,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "scrip",
+      "value": 800
+    },
+    {
+      "address": "דרך השלום 26, תל אביב יפו",
+      "barcode": "677777777777",
+      "brand": "Celio",
+      "cvv": "0",
+      "deliveryIncluded": "1",
+      "discount": 20,
+      "distance": 7412.6572265625,
+      "expDate": "3/10/17",
+      "firmProperty": true,
+      "id": "-Kl0XjtZzfrSEzA0VL1_",
+      "price": 300,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "scrip",
+      "value": 800
+    },
+    {
+      "address": "ויצמן 60, תל אביב יפו",
+      "barcode": "677777777777",
+      "brand": "Celio",
+      "cvv": "0",
+      "deliveryIncluded": "1",
+      "discount": 20,
+      "distance": 7412.6572265625,
+      "expDate": "3/10/17",
+      "firmProperty": true,
+      "id": "-Kl0XjtZzfrSEzA0VL1_",
+      "price": 300,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "scrip",
+      "value": 800
+    },
+    {
+      "address": "דיזנגוף 190, תל אביב יפו",
+      "barcode": "677777777777",
+      "brand": "Celio",
+      "cvv": "0",
+      "deliveryIncluded": "1",
+      "discount": 20,
+      "distance": 7412.6572265625,
+      "expDate": "3/10/17",
+      "firmProperty": true,
+      "id": "-Kl0XjtZzfrSEzA0VL1_",
+      "price": 300,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "scrip",
+      "value": 800
+    },
+    {
+      "address": "העלייה 62, תל אביב יפו",
+      "barcode": "677777777777",
+      "brand": "Celio",
+      "cvv": "0",
+      "deliveryIncluded": "1",
+      "discount": 20,
+      "distance": 7412.6572265625,
+      "expDate": "3/10/17",
+      "firmProperty": true,
+      "id": "-Kl0XjtZzfrSEzA0VL1_",
+      "price": 300,
+      "realLocation": {
+        "Adress": "ampilim",
+        "lat": "32.052479",
+        "lon": "34.812837"
+      },
+      "status": "valid",
+      "type": "scrip",
+      "value": 800
+    }
+  ]
+}

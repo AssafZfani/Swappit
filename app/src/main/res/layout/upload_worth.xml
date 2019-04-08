@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <talaviassaf.swappit.models.CleanEditText
+        android:id="@+id/value"
+        style="@style/EditText"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/corner_transparent"
+        android:hint="@string/upload_worth_value"
+        android:inputType="number"
+        android:maxLength="5"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textAlignment="center" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/divider"
+        style="@style/WhiteDivider"
+        android:layout_below="@id/value"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/chooseDiscount"
+        style="@style/TextViewWhite"
+        android:layout_below="@id/divider"
+        android:text="@string/upload_worth_discount" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/discountNote"
+        style="@style/TextViewWhite"
+        android:layout_below="@id/chooseDiscount"
+        android:text="@string/upload_worth_discount_note"
+        android:textSize="11.5sp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="1dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/circularSeekBar"
+        android:layout_marginLeft="75dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="12.5dp"
+        android:background="@android:color/white" />
+
+    <talaviassaf.swappit.models.CircularSeekBar
+        android:id="@+id/circularSeekBar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/discountNote"
+        app:circle_color="@android:color/white"
+        app:circle_progress_color="@android:color/white"
+        app:circle_stroke_width="1.5dp"
+        app:circle_x_radius="60dp"
+        app:circle_y_radius="60dp"
+        app:pointer_color="#FFFFFF"
+        app:pointer_halo_border_width="1dp"
+        app:pointer_halo_color="#262626"
+        app:pointer_halo_color_on_touch="#262626"
+        app:use_custom_radii="true" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/discount"
+        style="@style/TextViewWhite"
+        android:layout_below="@id/line"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="22.5dp"
+        android:textSize="25sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/priceAfterDiscount"
+        style="@style/TextViewWhite"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/line"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/upload_worth_price_after_discount" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/price"
+        style="@style/TextViewWhite"
+        android:layout_alignLeft="@+id/priceAfterDiscount"
+        android:layout_alignStart="@+id/priceAfterDiscount"
+        android:layout_below="@+id/priceAfterDiscount"
+        android:textSize="22.5sp" />
+
+</RelativeLayout>

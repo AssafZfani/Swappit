@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/scrip"
+        style="@style/VoucherTypeButton"
+        android:background="@drawable/top"
+        android:text="@string/show_by_voucher_type_scrip" />
+
+    <View style="@style/WhiteDivider" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/magnetCard"
+        style="@style/VoucherTypeButton"
+        android:text="@string/show_by_voucher_type_magnet_card" />
+
+    <View style="@style/WhiteDivider" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/paper"
+        style="@style/VoucherTypeButton"
+        android:background="@drawable/bottom"
+        android:text="@string/show_by_voucher_type_paper" />
+
+</android.support.v7.widget.LinearLayoutCompat>

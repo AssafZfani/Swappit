@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/voucherInfoMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/action_bar" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/voucherFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/corner_white"
+        android:text="@string/voucher_info_buy"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/call"
+        style="@style/VoucherInfoButton"
+        android:background="@drawable/top"
+        android:text="@string/voucher_info_call"
+        android:typeface="serif" />
+
+    <View
+        android:id="@+id/divider1"
+        style="@style/WhiteDividerWithMargin2" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/sms"
+        style="@style/VoucherInfoButton"
+        android:text="@string/voucher_info_sms" />
+
+    <View
+        android:id="@+id/divider2"
+        style="@style/WhiteDividerWithMargin2" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/cartActions"
+        style="@style/VoucherInfoButton"
+        android:background="@drawable/top"
+        android:visibility="gone" />
+
+    <View style="@style/WhiteDividerWithMargin2" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/share"
+        style="@style/VoucherInfoButton"
+        android:text="@string/voucher_info_share" />
+
+    <View style="@style/WhiteDividerWithMargin2" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/delete"
+        style="@style/VoucherInfoButton"
+        android:background="@drawable/bottom"
+        android:text="@string/voucher_info_delete" />
+
+</android.support.v7.widget.LinearLayoutCompat>

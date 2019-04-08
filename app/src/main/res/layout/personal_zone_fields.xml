@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <talaviassaf.swappit.models.CleanEditText
+            android:id="@+id/email"
+            style="@style/EditText"
+            android:hint="@string/bg_field_email"
+            android:inputType="textEmailAddress" />
+
+        <View style="@style/WhiteDividerWithMargin1" />
+
+        <talaviassaf.swappit.models.CleanEditText
+            android:id="@+id/firstName"
+            style="@style/EditText"
+            android:hint="@string/bg_field_first_name" />
+
+        <View style="@style/WhiteDividerWithMargin1" />
+
+        <talaviassaf.swappit.models.CleanEditText
+            android:id="@+id/lastName"
+            style="@style/EditText"
+            android:hint="@string/bg_field_last_name" />
+
+        <View style="@style/WhiteDividerWithMargin1" />
+
+        <talaviassaf.swappit.models.CleanEditText
+            android:id="@+id/address"
+            style="@style/EditText"
+            android:layout_gravity="start"
+            android:hint="@string/bg_field_address"
+            android:imeOptions="actionNext"
+            android:textAlignment="viewStart" />
+
+        <View style="@style/WhiteDividerWithMargin1" />
+
+        <talaviassaf.swappit.models.CleanEditText
+            android:id="@+id/apartment"
+            style="@style/EditText"
+            android:hint="@string/bg_field_apartment"
+            android:inputType="number" />
+
+        <View style="@style/WhiteDividerWithMargin1" />
+
+        <talaviassaf.swappit.models.CleanEditText
+            android:id="@+id/postcode"
+            style="@style/EditText"
+            android:hint="@string/bg_field_postcode"
+            android:inputType="number" />
+
+        <View style="@style/WhiteDividerWithMargin1" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/save"
+                style="@style/TextViewWhite"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:text="@string/personal_zone_fields_save" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/cancel"
+                style="@style/TextViewWhite"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:text="@string/personal_zone_fields_cancel" />
+
+        </RadioGroup>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</ScrollView>

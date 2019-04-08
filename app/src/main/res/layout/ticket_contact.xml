@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/call"
+        style="@style/TicketTextView"
+        android:drawableTop="@drawable/call"
+        android:text="@string/voucher_info_call" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/share"
+        style="@style/TicketTextView"
+        android:layout_centerHorizontal="true"
+        android:drawableTop="@drawable/share"
+        android:text="@string/voucher_info_share" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/sms"
+        style="@style/TicketTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:drawableTop="@drawable/sms"
+        android:text="@string/voucher_info_sms" />
+
+</RelativeLayout>

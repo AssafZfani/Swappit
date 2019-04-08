@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "765993070676",
+    "firebase_url": "https://talaviassaf-swappit.firebaseio.com",
+    "project_id": "talaviassaf-swappit",
+    "storage_bucket": "talaviassaf-swappit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765993070676:android:96629794af793a0f",
+        "android_client_info": {
+          "package_name": "talaviassaf.swappit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765993070676-hh5js1k6ipp03i2qbsaje15ln5i14jkj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "talaviassaf.swappit",
+            "certificate_hash": "021d1e6f855acd0ac66a58d7d4e312555c8fbc4a"
+          }
+        },
+        {
+          "client_id": "765993070676-0tvvo7lt7ucn2bhs6b3ojjgdenc2jn2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzPO3cSVEUO1I2S-3GORCIJ968iAO33ow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765993070676-so7d6016hnj2llnsgr7auvvqrgaddiud.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.swappit.swappitapp"
+              }
+            },
+            {
+              "client_id": "765993070676-0tvvo7lt7ucn2bhs6b3ojjgdenc2jn2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

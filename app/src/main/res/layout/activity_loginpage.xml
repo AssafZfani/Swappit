@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:paddingEnd="25dp"
+    android:paddingStart="25dp">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/appTitle"
+        style="@style/TextViewWhite"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="45dp"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:typeface="serif" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/phone"
+        style="@style/EditText"
+        android:layout_height="50dp"
+        android:layout_below="@+id/appTitle"
+        android:background="@drawable/corner_transparent"
+        android:gravity="start|center"
+        android:hint="@string/login_page_enter_your_phone_number"
+        android:inputType="phone"
+        android:textAlignment="viewStart" />
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/TextViewWhite"
+        android:layout_alignBaseline="@id/phone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/login_page_prefix"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/signIn"
+        style="@style/ButtonBottom"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="15dp"
+        android:text="@string/login_page_login" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/terms"
+        style="@style/TextViewWhite"
+        android:layout_below="@id/signIn"
+        android:layout_centerInParent="true"
+        android:text="@string/login_page_terms_and_conditions"
+        android:textSize="12.5sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/support"
+        style="@style/TextViewWhite"
+        android:layout_below="@id/terms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="@string/login_page_login_troubleshooting"
+        android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/TextViewWhite"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/personal_zone_contact_us_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <talaviassaf.swappit.models.CleanEditText
+                android:id="@+id/fullName"
+                style="@style/EditText"
+                android:hint="@string/personal_zone_contact_us_full_name"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider1"
+                style="@style/WhiteDividerWithMargin1"
+                android:layout_below="@id/fullName" />
+
+            <talaviassaf.swappit.models.CleanEditText
+                android:id="@+id/phone"
+                style="@style/EditText"
+                android:layout_below="@id/divider1"
+                android:gravity="start"
+                android:hint="@string/personal_zone_contact_us_phone"
+                android:inputType="phone"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider2"
+                style="@style/WhiteDividerWithMargin1"
+                android:layout_below="@id/phone" />
+
+            <talaviassaf.swappit.models.CleanEditText
+                android:id="@+id/email"
+                style="@style/EditText"
+                android:layout_below="@id/divider2"
+                android:hint="@string/bg_field_email"
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider3"
+                style="@style/WhiteDividerWithMargin1"
+                android:layout_below="@id/email" />
+
+            <talaviassaf.swappit.models.CleanEditText
+                android:id="@+id/subject"
+                style="@style/EditText"
+                android:layout_below="@id/divider3"
+                android:hint="@string/personal_zone_contact_us_subject"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider4"
+                style="@style/WhiteDividerWithMargin1"
+                android:layout_below="@id/subject" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/content_title"
+                style="@style/TextViewWhite"
+                android:layout_below="@id/divider4"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/personal_zone_contact_us_content" />
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/TextViewWhite"
+                android:layout_alignBaseline="@id/content_title"
+                android:layout_toEndOf="@id/content_title"
+                android:layout_toRightOf="@id/content_title"
+                android:text="@string/personal_zone_contact_us_chars_limit"
+                android:textSize="12sp" />
+
+            <talaviassaf.swappit.models.CleanEditText
+                android:id="@+id/content"
+                style="@style/EditText"
+                android:layout_height="100dp"
+                android:layout_below="@id/content_title"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/stroke"
+                android:gravity="top"
+                android:hint=""
+                android:inputType="textMultiLine"
+                android:maxLength="500"
+                android:padding="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/send"
+                style="@style/ButtonBottom"
+                android:layout_below="@id/content"
+                android:layout_marginTop="35dp"
+                android:text="@string/personal_zone_contact_us_send" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

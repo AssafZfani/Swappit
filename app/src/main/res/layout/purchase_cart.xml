@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/emptyCartMessage1"
+        style="@style/TextViewWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:drawablePadding="15dp"
+        android:drawableTop="@drawable/empty_cart"
+        android:gravity="center"
+        android:text="@string/purchase_cart_empty_cart_message1"
+        android:textSize="20sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/emptyCartMessage2"
+        style="@style/TextViewWhite"
+        android:layout_below="@id/emptyCartMessage1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/purchase_cart_empty_cart_message2" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/locationMessage"
+        style="@style/TextViewWhite"
+        android:layout_marginTop="100dp"
+        android:drawablePadding="15dp"
+        android:drawableTop="@drawable/location"
+        android:gravity="center"
+        android:text="@string/purchase_cart_location_message" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/priceSumText"
+        style="@style/TextViewWhite"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/purchase_cart_total_payment" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/priceSum"
+        style="@style/TextViewWhite"
+        android:layout_alignBaseline="@id/priceSumText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/divider"
+        style="@style/WhiteDivider"
+        android:layout_above="@id/priceSumText"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/cartSavingText"
+        style="@style/TextViewWhite"
+        android:layout_above="@id/divider"
+        android:text="@string/purchase_cart_saving"
+        android:textColor="@color/colorGreen" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/savedSum"
+        style="@style/TextViewWhite"
+        android:layout_alignBaseline="@id/cartSavingText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorGreen" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/cartWorthText"
+        style="@style/TextViewWhite"
+        android:layout_above="@id/cartSavingText"
+        android:text="@string/purchase_cart_worth" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/cartWorth"
+        style="@style/TextViewWhite"
+        android:layout_alignBaseline="@id/cartWorthText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/cartSwipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/cartWorthText"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cartRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fadingEdgeLength="35dp"
+            android:requiresFadingEdge="vertical" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

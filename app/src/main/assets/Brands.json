@@ -1,0 +1,756 @@
+﻿{
+  "Brands": [
+    {
+      "id": 0,
+      "types": [
+        4,
+        9
+      ],
+      "brand": "Accessorize",
+      "hebrew": "אקססורייז",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FAccessorize.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FAccessorize.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 1,
+      "types": [
+        1
+      ],
+      "brand": "Adidas",
+      "hebrew": "אדידס",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FAdidas.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FAdidas.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 2,
+      "types": [
+        4,
+        2
+      ],
+      "brand": "Aerie",
+      "hebrew": "אריה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FAerie.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FAerie.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 3,
+      "types": [
+        4,
+        9
+      ],
+      "brand": "Aldo",
+      "hebrew": "אלדו",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FAldo.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FAldo.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 4,
+      "types": [
+        1,
+        5,
+        7
+      ],
+      "brand": "American Eagle",
+      "hebrew": "אמריקן איגל",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FAmerican%20Eagle.png?alt=media&token=4cb1de28-d75d-48ed-9c89-9ea97e48ff9c",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FAmerican%20Eagle.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 5,
+      "types": [
+        4
+      ],
+      "brand": "April",
+      "hebrew": "אפריל",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FApril.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FApril.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 6,
+      "types": [
+        4
+      ],
+      "brand": "Billabong",
+      "hebrew": "בילבונג",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FBillabong.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FBillabong.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 7,
+      "types": [
+        18
+      ],
+      "brand": "Bug",
+      "hebrew": "באג",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FBug.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FBug.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 8,
+      "types": [
+        4
+      ],
+      "brand": "Call It Spring",
+      "hebrew": "קול איט ספרינג",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FCall%20It%20Spring.png?alt=media&token=fce1e9fa-792f-4ea6-aee7-98ec3111c5ba",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FCall%20It%20Spring.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 9,
+      "types": [
+        4,
+        12
+      ],
+      "brand": "Carolina Lemke",
+      "hebrew": "קרולינה למקה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FCarolina%20Lemke.png?alt=media&token=c135861b-7510-4633-91f6-ec3165b2ff1a",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FCarolina%20Lemke.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 10,
+      "types": [
+        4
+      ],
+      "brand": "Castro",
+      "hebrew": "קסטרו",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FCastro.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FCastro.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 11,
+      "types": [
+        4
+      ],
+      "brand": "Celio",
+      "hebrew": "סליו",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FCelio.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FCelio.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 12,
+      "types": [
+        8
+      ],
+      "brand": "Cook & Bake",
+      "hebrew": "קוק אנד בייק",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FCook%20%26%20Bake.png?alt=media&token=630d41ad-2530-4c49-a0ca-2fbe3ea2e3f1",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FCook%20%26%20Bake.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 13,
+      "types": [
+        4
+      ],
+      "brand": "Crazy Line",
+      "hebrew": "קרייזי ליין",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FCrazy%20Line.png?alt=media&token=0719017e-b56e-4d74-94ac-8bc34ae7ac4b",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FCrazy%20Line.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 14,
+      "types": [
+        4,
+        1
+      ],
+      "brand": "Crocs & More",
+      "hebrew": "קרוקס אנד מור",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FCrocs%20%26%20More.png?alt=media&token=5976243a-4570-45de-a715-8c9d53e0b35e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FCrocs%20%26%20More.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 15,
+      "types": [
+        4,
+        2
+      ],
+      "brand": "Delta",
+      "hebrew": "דלתא",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FDelta.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FDelta.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 16,
+      "types": [
+        4
+      ],
+      "brand": "Diesel",
+      "hebrew": "דיזל",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FDiesel.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FDiesel.png?alt=media&token=23eebb41-e343-4e7f-b77e-59825889c6b6"
+    },
+    {
+      "id": 17,
+      "types": [
+        4,
+        2,
+        1,
+        17
+      ],
+      "brand": "Dream Card",
+      "hebrew": "דרים קארד",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FDream%20Card.png?alt=media&token=ab505917-e740-4e03-85bf-41ada89fb0a5",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FDream%20Card.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 18,
+      "types": [
+        17
+      ],
+      "brand": "Enter",
+      "hebrew": "אנטר",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FEnter.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FEnter.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 19,
+      "types": [
+        4
+      ],
+      "brand": "Forever 21",
+      "hebrew": "פוראבר 21",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FForever%2021.png?alt=media&token=50f1a0a6-12f6-4e4f-82f8-2e032c9f0855",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FForever%2021.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 20,
+      "types": [
+        4
+      ],
+      "brand": "Gap",
+      "hebrew": "גאפ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FGap.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FGap.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 21,
+      "types": [
+        17
+      ],
+      "brand": "Gentleman",
+      "hebrew": "ג'נטלמן",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FGentleman.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FGentleman.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 22,
+      "types": [
+        14
+      ],
+      "brand": "Golbary",
+      "hebrew": "גולברי",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FGolbary.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FGolbary.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 23,
+      "types": [
+        4
+      ],
+      "brand": "Golf Group",
+      "hebrew": "גולף גרופ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FGolf%20Group.png?alt=media&token=15630136-ec91-4781-a34e-d20bc6fa0e5f",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FGolf%20Group.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 24,
+      "types": [
+        4
+      ],
+      "brand": "H&M",
+      "hebrew": "אייץ' אנד אם",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FH&M.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FH&M.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 25,
+      "types": [
+        17,
+        13
+      ],
+      "brand": "Happening",
+      "hebrew": "הפנינג",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FHappening.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FHappening.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 26,
+      "types": [
+        18
+      ],
+      "brand": "Held",
+      "hebrew": "הלד",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FHeld.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FHeld.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 27,
+      "types": [
+        7
+      ],
+      "brand": "Holmes Place",
+      "hebrew": "הולמס פלייס",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FHolmes%20Place.png?alt=media&token=27ccfcf2-d5ea-4876-8f85-6e9a479b78b5",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FHolmes%20Place.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 28,
+      "types": [
+        4
+      ],
+      "brand": "Honigman",
+      "hebrew": "הוניגמן",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FHonigman.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FHonigman.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 29,
+      "types": [
+        4
+      ],
+      "brand": "Hoodies",
+      "hebrew": "הודיס",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FHoodies.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FHoodies.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 30,
+      "types": [
+        14
+      ],
+      "brand": "Hstern",
+      "hebrew": "ה. שטרן",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FHstern.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FHstern.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 31,
+      "types": [
+        18
+      ],
+      "brand": "idigital",
+      "hebrew": "איי דיגיטל",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FIdigital.png?alt=media&token=3c6c77bd-64ee-4807-a577-f28dc1ebacfa",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FIdigital.png?alt=media&token=923d2202-adfd-4e16-b586-666a47836e40"
+    },
+    {
+      "id": 32,
+      "types": [
+        9
+      ],
+      "brand": "Il Makiage",
+      "hebrew": "איל מקיאג'",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FIl%20Makiage.png?alt=media&token=22d499ac-68be-4f00-ac08-7e61fb41a375",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FIl%20Makiage.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 33,
+      "types": [
+        2
+      ],
+      "brand": "Intima",
+      "hebrew": "אינטימה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FIntima.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FIntima.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 34,
+      "types": [
+        18,
+        16
+      ],
+      "brand": "Kravitz",
+      "hebrew": "קרביץ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FKravitz.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FKravitz.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 35,
+      "types": [
+        4,
+        9
+      ],
+      "brand": "Laka",
+      "hebrew": "לאקה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FLaka.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FLaka.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 36,
+      "types": [
+        9,
+        17
+      ],
+      "brand": "Laline",
+      "hebrew": "ללין",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FLaline.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FLaline.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 37,
+      "types": [
+        4
+      ],
+      "brand": "Lee Cooper",
+      "hebrew": "לי קופר",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FLee%20Cooper.png?alt=media&token=8c3a39d8-c021-4c1a-a541-5ae6fbc56527",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FLee%20Cooper.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 38,
+      "types": [
+        14
+      ],
+      "brand": "Magnolia",
+      "hebrew": "מגנוליה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FMagnolia.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FMagnolia.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 39,
+      "types": [
+        4
+      ],
+      "brand": "Mango",
+      "hebrew": "מנגו",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FMango.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FMango.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 40,
+      "types": [
+        7
+      ],
+      "brand": "Mega Sport",
+      "hebrew": "מגה ספורט",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FMega%20Sport.png?alt=media&token=a4fff522-66a0-46d2-8b22-9000bfb688f8",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FMega%20Sport.png?alt=media&token=e4b4d573-e6ec-4157-9085-236eb39145e8"
+    },
+    {
+      "id": 41,
+      "types": [
+        14
+      ],
+      "brand": "Miller",
+      "hebrew": "מילר",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FMiller.png?alt=media&token=a4fff522-66a0-46d2-8b22-9000bfb688f8",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FMiller.png?alt=media&token=b5727496-5744-4074-b3d7-f6567c8cfc9b"
+    },
+    {
+      "id": 42,
+      "types": [
+        4
+      ],
+      "brand": "Nautica",
+      "hebrew": "נאוטיקה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FNautica.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FNautica.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 43,
+      "types": [
+        4,
+        7
+      ],
+      "brand": "Nike",
+      "hebrew": "נייק",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FNike.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FNike.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 44,
+      "types": [
+        4
+      ],
+      "brand": "Nine West",
+      "hebrew": "ניין ווסט",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FNine%20West.png?alt=media&token=6f329a41-acb4-4c4f-a841-27b9dfb5e5cf",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FNine%20West.png?alt=media&token=3b9b419a-9762-41b1-8178-b4a45bc21807"
+    },
+    {
+      "id": 45,
+      "types": [
+        12
+      ],
+      "brand": "Opticana",
+      "hebrew": "אופטיקנה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FOpticana.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FOpticana.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 46,
+      "types": [
+        14
+      ],
+      "brand": "Pandora",
+      "hebrew": "פנדורה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FPandora.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FPandora.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 47,
+      "types": [
+        4
+      ],
+      "brand": "Pull & Bear",
+      "hebrew": "פול אנד בר",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FPull%20%26%20Bear.png?alt=media&token=365996bc-fdf6-419c-9eab-3a81c9d92d0f",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FPull%20%26%20Bear.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 48,
+      "types": [
+        4
+      ],
+      "brand": "Renuar",
+      "hebrew": "רנואר",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FRenuar.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FRenuar.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 49,
+      "types": [
+        4
+      ],
+      "brand": "Replay",
+      "hebrew": "ריפליי",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FReplay.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FReplay.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 50,
+      "types": [
+        5
+      ],
+      "brand": "Rikushet",
+      "hebrew": "ריקושט",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FRikushet.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FRikushet.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 51,
+      "types": [
+        14
+      ],
+      "brand": "Royalty",
+      "hebrew": "רויאלטי",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FRoyalty.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FRoyalty.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 52,
+      "types": [
+        4
+      ],
+      "brand": "S Wear",
+      "hebrew": "אס וור",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FS%20Wear.png?alt=media&token=e322733b-9425-4929-a566-33587b88dbd4",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FS%20Wear.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 53,
+      "types": [
+        17,
+        9
+      ],
+      "brand": "Sabon",
+      "hebrew": "סבון",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FSabon.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FSabon.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 54,
+      "types": [
+        4
+      ],
+      "brand": "Sack 's",
+      "hebrew": "סאקס",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FSack's.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FSack's.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 55,
+      "types": [
+        5
+      ],
+      "brand": "Samsonite",
+      "hebrew": "סמסונייט",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FSamsonite.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FSamsonite.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 56,
+      "types": [
+        8
+      ],
+      "brand": "Shufersal",
+      "hebrew": "שופרסל",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FShufersal.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FShufersal.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 57,
+      "types": [
+        7,
+        4
+      ],
+      "brand": "Sport W",
+      "hebrew": "ספורט ורטהיימר",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FSport%20W.png?alt=media&token=042d9890-2add-4f91-a3e5-42a1014d213c",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FSport%20W.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 58,
+      "types": [
+        16
+      ],
+      "brand": "Steimatzky",
+      "hebrew": "סטימצקי",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FSteimatzky.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FSteimatzky.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 59,
+      "types": [
+        1
+      ],
+      "brand": "Steve Madden",
+      "hebrew": "סטיב מאדן",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FSteve%20Madden.png?alt=media&token=d37f71f0-8261-4b3e-b95f-9c6813cb3268",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FSteve%20Madden.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 60,
+      "types": [
+        4,
+        17
+      ],
+      "brand": "Story",
+      "hebrew": "סטורי",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FStory.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FStory.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 61,
+      "types": [
+        4
+      ],
+      "brand": "Studio Pasha",
+      "hebrew": "סטודיו פאשה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FStudio%20Pasha.png?alt=media&token=69d53d37-9933-4c63-86cf-c5559ec9429b",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FStudio%20Pasha.png?alt=media&token=91e65597-de10-481d-94fc-b65f1bff048b"
+    },
+    {
+      "id": 62,
+      "types": [
+        9,
+        13
+      ],
+      "brand": "Super Pharm",
+      "hebrew": "סופר פארם",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FSuper%20Pharm.png?alt=media&token=51fdcfa5-8de1-4bcd-97ef-7cbbda7f8e5b",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FSuper%20Pharm.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 63,
+      "types": [
+        4
+      ],
+      "brand": "Swatch",
+      "hebrew": "סווטש",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FSwatch.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FSwatch.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 64,
+      "types": [
+        4,
+        1
+      ],
+      "brand": "Teva Naot",
+      "hebrew": "טבע נאות",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FTeva%20Naot.png?alt=media&token=d859c6e7-fd9e-49e2-a929-c8b693dc000d",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FTeva%20Naot.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 65,
+      "types": [
+        4,
+        5
+      ],
+      "brand": "The North Face",
+      "hebrew": "דה נורת' פייס",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FThe%20North%20Face.png?alt=media&token=18a4f80c-b063-4704-97ff-bb8f87f5de18",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FThe%20North%20Face.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 66,
+      "types": [
+        4
+      ],
+      "brand": "Tnt",
+      "hebrew": "טי אנד טי",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FTnt.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FTnt.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 67,
+      "types": [
+        4
+      ],
+      "brand": "Top Ten",
+      "hebrew": "טופ טן",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FTop%20Ten.png?alt=media&token=5ca68776-80fd-4400-9a78-2bcb10b6a42f",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FTop%20Ten.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 68,
+      "types": [
+        4
+      ],
+      "brand": "Twenty Four Seven",
+      "hebrew": "טוונטי פור סבן",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FTwenty%20Four%20Seven.png?alt=media&token=d966a0c8-ef29-4257-b44b-78f158e06061",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FTwenty%20Four%20Seven.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 69,
+      "types": [
+        16
+      ],
+      "brand": "Tzomet Sfarim",
+      "hebrew": "צומת ספרים",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FTzomet%20Sfarim.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FTzomet%20Sfarim.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 70,
+      "types": [
+        4
+      ],
+      "brand": "Urbanica",
+      "hebrew": "אורבניקה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FUrbanica.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FUrbanica.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 71,
+      "types": [
+        4
+      ],
+      "brand": "Yanga",
+      "hebrew": "יאנגה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FYanga.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FYanga.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    },
+    {
+      "id": 72,
+      "types": [
+        4
+      ],
+      "brand": "Zara",
+      "hebrew": "זארה",
+      "image": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Cards%2FZara.png?alt=media&token=9fd50c21-dd28-44fd-947f-bb87adac634e",
+      "strip": "https://firebasestorage.googleapis.com/v0/b/talaviassaf-swappit.appspot.com/o/Stripes%2FZara.png?alt=media&token=292f6f72-c30e-48c0-b0c9-44cc8f2cac4c"
+    }
+  ]
+}

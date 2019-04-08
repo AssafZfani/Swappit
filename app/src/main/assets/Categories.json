@@ -1,0 +1,72 @@
+﻿{
+  "Categories": [
+    {
+      "hebrew": "הנעלה",
+      "type": "Footwear"
+    },
+    {
+      "hebrew": "הלבשה תחתונה",
+      "type": "Underwear"
+    },
+    {
+      "hebrew": "אופנה",
+      "type": "Fashion"
+    },
+    {
+      "hebrew": "טיולים ומלונאות",
+      "type": "Trips & Hotels"
+    },
+    {
+      "hebrew": "בית וגן",
+      "type": "Home & Garden"
+    },
+    {
+      "hebrew": "ספורט",
+      "type": "Sport"
+    },
+    {
+      "hebrew": "רשתות מזון",
+      "type": "Food Chains"
+    },
+    {
+      "hebrew": "טיפוח ופארם",
+      "type": "Therapy & Pharmacy"
+    },
+    {
+      "hebrew": "אלכוהול",
+      "type": "Alcohol"
+    },
+    {
+      "hebrew": "מסעדות",
+      "type": "Restaurants"
+    },
+    {
+      "hebrew": "אופטיקה",
+      "type": "Optics"
+    },
+    {
+      "hebrew": "ילדים",
+      "type": "Kids"
+    },
+    {
+      "hebrew": "תכשיטים",
+      "type": "Jewelry"
+    },
+    {
+      "hebrew": "מוצרי חשמל",
+      "type": "Electrical Appliances"
+    },
+    {
+      "hebrew": "ספרים",
+      "type": "Books"
+    },
+    {
+      "hebrew": "מתנות",
+      "type": "Gifts"
+    },
+    {
+      "hebrew": "מחשבים ואלקטרוניקה",
+      "type": "Computers"
+    }
+  ]
+}

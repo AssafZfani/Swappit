@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="15dp"
+    android:paddingStart="15dp">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/phase"
+        style="@style/TextViewWhite"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="7.5dp"
+        android:layout_marginBottom="20dp"
+        android:progressDrawable="@drawable/progress_bar" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/uploadFragmentTitle"
+        style="@style/TextViewWhite"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:typeface="serif" />
+
+    <talaviassaf.swappit.models.NonSlidingViewPager
+        android:id="@+id/uploadViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/next"
+        style="@style/ButtonBottom"
+        android:layout_marginTop="20dp"
+        android:text="@string/main_upload_vouchers_next" />
+
+</android.support.v7.widget.LinearLayoutCompat>

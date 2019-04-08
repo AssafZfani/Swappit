@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <talaviassaf.swappit.models.CleanEditText
+        android:id="@+id/expDate"
+        style="@style/EditText"
+        android:layout_height="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/corner_transparent"
+        android:inputType="date" />
+
+    <talaviassaf.swappit.models.CleanEditText
+        android:id="@+id/barcode"
+        style="@style/EditText"
+        android:layout_height="30dp"
+        android:layout_below="@id/expDate"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/corner_transparent"
+        android:inputType="number" />
+
+    <talaviassaf.swappit.models.CleanEditText
+        android:id="@+id/cvv"
+        style="@style/EditText"
+        android:layout_height="30dp"
+        android:layout_below="@id/barcode"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/corner_transparent"
+        android:hint="@string/upload_details_cvv_magnet_card"
+        android:inputType="number"
+        android:maxLength="3" />
+
+    <View
+        android:id="@+id/divider"
+        style="@style/WhiteDivider"
+        android:layout_below="@id/cvv"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="25dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/voucherDocumentation"
+        style="@style/TextViewWhite"
+        android:layout_below="@id/divider"
+        android:layout_marginTop="15dp"
+        android:text="@string/upload_details_voucher_documentation" />
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/TextViewWhite"
+        android:layout_below="@id/voucherDocumentation"
+        android:text="@string/upload_details_voucher_documentation_note"
+        android:textSize="11.5dp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/voucherCapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/divider"
+        android:background="@drawable/camera2"
+        android:onClick="camera" />
+
+</RelativeLayout>

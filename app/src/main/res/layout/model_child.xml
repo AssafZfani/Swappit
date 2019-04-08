@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/corner_transparent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatButton
+        style="@style/ButtonTop"
+        android:drawableEnd="@drawable/toggle_selector"
+        android:drawableRight="@drawable/toggle_selector"
+        android:enabled="false" />
+
+    <View style="@style/WhiteDivider" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/price"
+        style="@style/ButtonTop" />
+
+    <View style="@style/WhiteDivider" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        style="@style/ButtonTop"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/TextViewBlack"
+            android:text="@string/ticket_voucher_percent_off" />
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/discount"
+            style="@style/TextViewBlack" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <View style="@style/WhiteDivider" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/delete"
+        style="@style/ButtonTop"
+        android:text="@string/personal_zone_my_vouchers_delete"
+        android:typeface="serif" />
+
+</android.support.v7.widget.LinearLayoutCompat>
