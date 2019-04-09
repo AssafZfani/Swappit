@@ -40,20 +40,20 @@
         android:layout_marginBottom="20dp"
         android:layout_marginTop="25dp" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/voucherDocumentation"
         style="@style/TextViewWhite"
         android:layout_below="@id/divider"
         android:layout_marginTop="15dp"
         android:text="@string/upload_details_voucher_documentation" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         style="@style/TextViewWhite"
         android:layout_below="@id/voucherDocumentation"
         android:text="@string/upload_details_voucher_documentation_note"
         android:textSize="11.5dp" />
 
-    <android.support.v7.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/voucherCapture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -5,20 +5,20 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/call"
         style="@style/TicketTextView"
         android:drawableTop="@drawable/call"
         android:text="@string/voucher_info_call" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/share"
         style="@style/TicketTextView"
         android:layout_centerHorizontal="true"
         android:drawableTop="@drawable/share"
         android:text="@string/voucher_info_share" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/sms"
         style="@style/TicketTextView"
         android:layout_alignParentEnd="true"

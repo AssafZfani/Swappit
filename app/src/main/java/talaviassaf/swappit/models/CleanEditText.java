@@ -13,7 +13,7 @@ import android.widget.EditText;
 import talaviassaf.swappit.R;
 import talaviassaf.swappit.activities.ShowBy;
 
-public class CleanEditText extends android.support.v7.widget.AppCompatAutoCompleteTextView {
+public class CleanEditText extends androidx.appcompat.widget.AppCompatAutoCompleteTextView {
 
     private final int id;
 

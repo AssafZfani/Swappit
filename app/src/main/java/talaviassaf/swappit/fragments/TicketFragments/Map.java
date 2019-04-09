@@ -2,7 +2,7 @@ package talaviassaf.swappit.fragments.TicketFragments;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.widget.AppCompatTextView;
+import androidx.appcompat.widget.AppCompatTextView;
 import android.text.Editable;
 import android.view.KeyEvent;
 import android.view.View;

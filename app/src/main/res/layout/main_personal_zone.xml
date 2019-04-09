@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/pzProfilePicture"
         android:layout_width="85dp"
         android:layout_height="85dp"
@@ -20,36 +20,36 @@
         android:layout_marginBottom="15dp"
         android:animateLayoutChanges="true" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         style="@style/ButtonTop"
         android:background="@drawable/top"
         android:text="@string/main_personal_zone_rate_us" />
 
     <View style="@style/WhiteDivider" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/contactUs"
         style="@style/ButtonTop"
         android:text="@string/main_personal_zone_contact_us" />
 
     <View style="@style/WhiteDivider" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         style="@style/ButtonTop"
         android:text="@string/main_personal_zone_invite_friends" />
 
     <View style="@style/WhiteDivider" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         style="@style/ButtonTop"
         android:text="@string/main_personal_zone_faq" />
 
     <View style="@style/WhiteDivider" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/aboutUs"
         style="@style/ButtonTop"
         android:background="@drawable/bottom"
         android:text="@string/main_personal_zone_about_us" />
 
-</android.support.v7.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

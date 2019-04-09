@@ -8,7 +8,7 @@
     android:paddingEnd="25dp"
     android:paddingStart="25dp">
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/appTitle"
         style="@style/TextViewWhite"
         android:layout_centerInParent="true"
@@ -17,7 +17,7 @@
         android:textSize="50sp"
         android:typeface="serif" />
 
-    <android.support.v7.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/phone"
         style="@style/EditText"
         android:layout_height="50dp"
@@ -28,7 +28,7 @@
         android:inputType="phone"
         android:textAlignment="viewStart" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         style="@style/TextViewWhite"
         android:layout_alignBaseline="@id/phone"
         android:layout_alignParentEnd="true"
@@ -39,14 +39,14 @@
         android:textSize="15sp"
         android:typeface="serif" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/signIn"
         style="@style/ButtonBottom"
         android:layout_below="@id/phone"
         android:layout_marginTop="15dp"
         android:text="@string/login_page_login" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/terms"
         style="@style/TextViewWhite"
         android:layout_below="@id/signIn"
@@ -54,7 +54,7 @@
         android:text="@string/login_page_terms_and_conditions"
         android:textSize="12.5sp" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/support"
         style="@style/TextViewWhite"
         android:layout_below="@id/terms"

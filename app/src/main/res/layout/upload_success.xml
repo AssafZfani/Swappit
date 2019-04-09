@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/corner_black"
     android:gravity="center"
     android:orientation="vertical">
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         style="@style/TextViewWhite"
         android:drawableBottom="@drawable/check_mark2"
         android:drawablePadding="15dp"
@@ -21,11 +21,11 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <android.support.v7.widget.AppCompatTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/address"
             style="@style/TextViewWhite" />
 
-        <android.support.v7.widget.AppCompatTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/changePaymentSystem"
             style="@style/TextViewWhite"
             android:text="@string/purchase_success_change" />
@@ -36,19 +36,19 @@
         style="@style/WhiteDivider"
         android:layout_margin="20dp" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/voucherWorth"
         style="@style/TextViewWhite"
         android:layout_marginBottom="5dp" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/percentOff"
         style="@style/TextViewWhite"
         android:layout_marginBottom="10dp" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/salePrice"
         style="@style/TextViewWhite"
         android:textSize="25sp" />
 
-</android.support.v7.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

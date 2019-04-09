@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/showByMainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,7 +22,7 @@
         android:background="@drawable/stroke"
         android:orientation="horizontal">
 
-        <android.support.v7.widget.AppCompatRadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
             android:id="@+id/location"
             style="@style/RadioButton1"
             android:background="@drawable/right"
@@ -33,7 +33,7 @@
             android:layout_height="match_parent"
             android:background="@android:color/white" />
 
-        <android.support.v7.widget.AppCompatRadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
             android:id="@+id/voucherType"
             style="@style/RadioButton1"
             android:background="@drawable/middle"
@@ -44,7 +44,7 @@
             android:layout_height="match_parent"
             android:background="@android:color/white" />
 
-        <android.support.v7.widget.AppCompatRadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
             android:id="@+id/category"
             style="@style/RadioButton1"
             android:background="@drawable/left"
@@ -52,7 +52,7 @@
 
     </RadioGroup>
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/showByFragmentTitle"
         style="@style/TextViewWhite"
         android:layout_marginBottom="15dp"
@@ -68,11 +68,11 @@
         android:layout_marginStart="20dp"
         android:layout_weight="1" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/filter"
         style="@style/ButtonBottom"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:text="@string/show_by_confirm" />
 
-</android.support.v7.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

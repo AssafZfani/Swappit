@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/updateVouchers"
         style="@style/TextViewWhite"
         android:layout_gravity="center"
         android:layout_margin="15dp"
         android:text="@string/personal_zone_my_vouchers_title" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/myVouchersMessage"
         style="@style/TextViewWhite"
         android:layout_gravity="center"
@@ -25,4 +25,4 @@
         android:id="@+id/myVouchersList"
         style="@style/ExpandableListView" />
 
-</android.support.v7.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

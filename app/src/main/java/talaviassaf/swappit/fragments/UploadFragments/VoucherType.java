@@ -2,9 +2,9 @@ package talaviassaf.swappit.fragments.UploadFragments;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.AppCompatTextView;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.widget.AppCompatTextView;
 import android.text.Editable;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;

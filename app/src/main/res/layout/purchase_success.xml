@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         style="@style/TextViewWhite"
         android:layout_gravity="center"
         android:layout_marginBottom="15dp"
         android:layout_marginTop="25dp"
         android:text="@string/bg_edit_address_success_title" />
 
-    <android.support.v7.widget.LinearLayoutCompat
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/corner_black"
@@ -27,12 +27,12 @@
             android:layout_marginBottom="10dp"
             android:gravity="center">
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 style="@style/TextViewWhite"
                 android:text="@string/purchase_success_system_payment"
                 android:typeface="serif" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/changePaymentSystem"
                 style="@style/TextViewWhite"
                 android:text="@string/purchase_success_change" />
@@ -44,11 +44,11 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 style="@style/TextViewWhite"
                 android:text="@string/purchase_success_credit" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/creditNumber"
                 style="@style/TextViewWhite"
                 android:layout_gravity="start"
@@ -66,30 +66,30 @@
             android:layout_marginBottom="10dp"
             android:gravity="center">
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 style="@style/TextViewWhite"
                 android:text="@string/purchase_success_delivery_address"
                 android:typeface="serif" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/changeAddress"
                 style="@style/TextViewWhite"
                 android:text="@string/purchase_success_change" />
 
         </RadioGroup>
 
-        <android.support.v7.widget.AppCompatTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/address"
             style="@style/TextViewWhite"
             android:layout_marginBottom="5dp" />
 
-        <android.support.v7.widget.AppCompatTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/postcode"
             style="@style/TextViewWhite"
             android:gravity="center"
             android:visibility="gone" />
 
-        <android.support.v7.widget.AppCompatTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/savedSum"
             style="@style/TextViewWhite"
             android:layout_marginBottom="5dp"
@@ -97,12 +97,12 @@
             android:textColor="@color/colorGreen"
             android:textSize="20sp" />
 
-        <android.support.v7.widget.AppCompatTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/priceSum"
             style="@style/TextViewWhite"
             android:textSize="25sp" />
 
-        <android.support.v7.widget.AppCompatCheckBox
+        <androidx.appcompat.widget.AppCompatCheckBox
             style="@style/TextViewWhite"
             android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"
@@ -111,6 +111,6 @@
             android:text="@string/purchase_success_address_note"
             android:textSize="12.5sp" />
 
-    </android.support.v7.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
-</android.support.v7.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         style="@style/TextViewWhite"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
@@ -72,7 +72,7 @@
                 style="@style/WhiteDividerWithMargin1"
                 android:layout_below="@id/subject" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/content_title"
                 style="@style/TextViewWhite"
                 android:layout_below="@id/divider4"
@@ -82,7 +82,7 @@
                 android:layout_marginTop="15dp"
                 android:text="@string/personal_zone_contact_us_content" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 style="@style/TextViewWhite"
                 android:layout_alignBaseline="@id/content_title"
                 android:layout_toEndOf="@id/content_title"
@@ -107,7 +107,7 @@
                 android:paddingStart="10dp"
                 android:textColor="@android:color/white" />
 
-            <android.support.v7.widget.AppCompatButton
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/send"
                 style="@style/ButtonBottom"
                 android:layout_below="@id/content"
@@ -118,4 +118,4 @@
 
     </ScrollView>
 
-</android.support.v7.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -4,8 +4,8 @@ import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatDialog;
-import android.support.v7.widget.AppCompatTextView;
+import androidx.appcompat.app.AppCompatDialog;
+import androidx.appcompat.widget.AppCompatTextView;
 import android.view.View;
 import android.view.Window;
 

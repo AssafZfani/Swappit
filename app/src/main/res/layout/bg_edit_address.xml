@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/successTitle"
         style="@style/TextViewWhite"
         android:layout_gravity="center"
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/corner_black">
 
-        <android.support.v7.widget.LinearLayoutCompat
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
@@ -27,7 +27,7 @@
             android:paddingBottom="30dp"
             android:paddingTop="30dp">
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/title"
                 style="@style/TextViewWhite"
                 android:layout_gravity="center"
@@ -67,14 +67,14 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <android.support.v7.widget.AppCompatTextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/confirm"
                     style="@style/TextViewWhite"
                     android:layout_marginEnd="25dp"
                     android:layout_marginRight="25dp"
                     android:text="@string/bg_edit_address_confirm" />
 
-                <android.support.v7.widget.AppCompatTextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/cancel"
                     style="@style/TextViewWhite"
                     android:layout_marginLeft="25dp"
@@ -83,8 +83,8 @@
 
             </RadioGroup>
 
-        </android.support.v7.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
     </ScrollView>
 
-</android.support.v7.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

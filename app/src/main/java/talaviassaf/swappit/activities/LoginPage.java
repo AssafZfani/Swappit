@@ -3,8 +3,8 @@ package talaviassaf.swappit.activities;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.AppCompatEditText;
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.AppCompatEditText;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;

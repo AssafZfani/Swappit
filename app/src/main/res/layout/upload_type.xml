@@ -13,7 +13,7 @@
         android:paddingEnd="10dp"
         android:paddingStart="10dp">
 
-        <android.support.v7.widget.AppCompatRadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
             android:id="@+id/scrip"
             style="@style/RadioButton2"
             android:drawableTop="@drawable/scrip"
@@ -21,7 +21,7 @@
 
         <View style="@style/EmptyView" />
 
-        <android.support.v7.widget.AppCompatRadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
             android:id="@+id/magnetCard"
             style="@style/RadioButton2"
             android:drawableTop="@drawable/magnet_card"
@@ -29,7 +29,7 @@
 
         <View style="@style/EmptyView" />
 
-        <android.support.v7.widget.AppCompatRadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
             android:id="@+id/paper"
             style="@style/RadioButton2"
             android:drawableTop="@drawable/paper"
@@ -44,7 +44,7 @@
         android:layout_marginBottom="25dp"
         android:layout_marginTop="25dp" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/chooseBrandName"
         style="@style/TextViewWhite"
         android:layout_below="@+id/divider"
@@ -62,7 +62,7 @@
         android:background="@drawable/corner_transparent"
         android:hint="@string/upload_type_choose_brand_from_list" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/theChosenBrand"
         style="@style/TextViewWhite"
         android:layout_below="@id/brandsList"
@@ -70,7 +70,7 @@
         android:layout_marginRight="5dp"
         android:text="@string/upload_type_chosen_brand" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/chosenBrand"
         style="@style/TextViewWhite"
         android:layout_below="@id/brandsList"
@@ -78,7 +78,7 @@
         android:layout_toRightOf="@id/theChosenBrand"
         android:typeface="serif" />
 
-    <android.support.v7.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/cleanChosenBrand"
         style="@style/CleanImageView"
         android:layout_below="@id/brandsList"
